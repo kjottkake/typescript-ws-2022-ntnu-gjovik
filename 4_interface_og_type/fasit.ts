@@ -9,7 +9,7 @@ type Mealtime = {
   startTime: number;
   endTime: number;
   menu: Menu;
-  print: () => void;
+  printFunction: () => void;
 };
 
 // eller
@@ -17,7 +17,7 @@ interface Mealtime2 {
   startTime: number;
   endTime: number;
   menu: Menu;
-  print: () => void;
+  printFunction: () => void;
 }
 
 // OPPGAVE 2 - FASIT
@@ -38,18 +38,19 @@ const dinner: Dinner2 = {
     title: "hamburger",
     price: 79,
   },
-  print: () => console.log("todays dinner will be awesome!"),
+  printFunction: () => console.log("todays dinner will be awesome!"),
   attendees: 30,
 };
 
 // OPPGAVE 3 - FASIT
 
-const printNames = (names: Array<string> | string): void => {
-  if (Array.isArray(names)) {
-    console.log(names.join(" and "));
-  } else {
-    console.log(names);
-  }
+const printList = (input: Array<string> | Array<number>): void => {
+  const nameListWithAnd = input.join(" and ");
+  console.log(nameListWithAnd)
 };
 
-export {}; /* Denne er med for å unngå at alt defineres i det globale skopet */
+const nameList: Array<string> = ["Ola", "Kari"]
+const numberList: Array<number> = [1, 2, 3, 4]
+printList(nameList)
+printList(numberList)
+export { }; /* Denne er med for å unngå at alt defineres i det globale skopet */

@@ -11,9 +11,10 @@
 // 'spritType' (som kan enten være 'vodka', 'snaps' eller 'portvin') og antall enheter
 
 // Oppgave 3:
-// Skriv om funksjonen slik at inputparametrene a og b er en union type av string og number.
+// Bytt ut any-typen i input med en intersection av string og number.
 // Hva må du erstatte '??' med for at funksjonen skal returnere? (Tips --> sjekk ut hvordan 
 // du kan bruke 'typeof' til din fordel) 
+// Les om typeof her: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
 
 function add(a: any, b: any) {
   if (??) {
@@ -25,4 +26,4 @@ function add(a: any, b: any) {
   throw new Error("Parameters must be numbers or strings");
 }
 
-export {}; /* Denne er med for å unngå at alt defineres i det globale skopet */
+export { }; /* Denne er med for å unngå at alt defineres i det globale skopet */

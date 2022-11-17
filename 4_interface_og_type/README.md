@@ -1,6 +1,6 @@
 ## Interface og type
 
-`Interface` og `type` er måter vi kan beskrive hvordan noe skal se ut i typescript. Det er små forskjeller mellom dem og en del uenighet om hva som er best å bruke.
+`Interface` og `type` er måter vi kan beskrive hvordan noe skal se ut i Typescript. Det er små forskjeller mellom dem og en del uenighet om hva som er best å bruke.
 
 Slik kan man definere hvordan et meny-objekt skal se ut på de to ulike måtene:
 
