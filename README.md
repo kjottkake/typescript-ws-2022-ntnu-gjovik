@@ -2,11 +2,10 @@
 
 Velkommen til workshop! 👨‍💻
 
-Dagens workshop er delt inn i to.
+Denne workshopen kan du enten gjøre i nettleser eller på din maskin. *Vi anbefaler nettleser om du vil komme raskt i gang.* 
+Gå inn på [denne Codesanbox-lenken](https://codesandbox.io/p/github/bekk/typescript-ws-2022-ntnu-gjovik/draft/thirsty-lederberg?file=%2FREADME.md&workspace=%257B%2522activeFileId%2522%253A%2522clapmlb9u0009l2isfni8d5c7%2522%252C%2522openFiles%2522%253A%255B%2522%252FREADME.md%2522%255D%252C%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522gitSidebarPanel%2522%253A%2522COMMIT%2522%252C%2522sidekickItems%2522%253A%255B%257B%2522key%2522%253A%2522clapmlcht000r3b6l1mq0rs3b%2522%252C%2522type%2522%253A%2522PROJECT_SETUP%2522%252C%2522isMinimized%2522%253Afalse%257D%255D%257D), så får du opp en kode-editor i nettleseren din og kan starte med oppgavene.
 
-### Del 1
-
-Del 1 tar for seg grunnleggende typescript før vi beveger oss videre til noe mer avansert.
+Workshopen tar først for seg grunnleggende TypeScript og går gradvis over i noe mer avansert konsepter.
 
 I hver mappe finner du tre filer; `README.md`, `oppgaver.ts`og `fasit.ts`. Vi anbefaler at du først leser `README`-en før du går i gang med oppgavene.
 
@@ -19,11 +18,6 @@ I hver mappe finner du tre filer; `README.md`, `oppgaver.ts`og `fasit.ts`. Vi an
 - [Oppgave 7: Declaration](typescript-oppgaver/7_declaration/README.md)
 - [Oppgave 8: Utility types](typescript-oppgaver/8_utility_types/README.md)
 
-### Del 2
-
-Del 2 gir en innføring i TypeScript i et React-prosjekt.
-
-[Oppgave 9: React](react-typescript-oppgaver/README.md)
 
 ### Ferdig?
 
