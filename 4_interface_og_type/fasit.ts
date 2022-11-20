@@ -5,7 +5,7 @@ type Menu = {
   price: number;
 };
 
-type Mealtime = {
+type Meal = {
   startTime: number;
   endTime: number;
   menu: Menu;
@@ -13,7 +13,7 @@ type Mealtime = {
 };
 
 // eller
-interface Mealtime2 {
+interface Meal2 {
   startTime: number;
   endTime: number;
   menu: Menu;
@@ -24,10 +24,10 @@ interface Mealtime2 {
 
 type Dinner = {
   attendees: number;
-} & Mealtime;
+} & Meal;
 
 // eller
-interface Dinner2 extends Mealtime {
+interface Dinner2 extends Meal {
   attendees: number;
 }
 
@@ -53,4 +53,9 @@ const nameList: Array<string> = ["Ola", "Kari"]
 const numberList: Array<number> = [1, 2, 3, 4]
 printList(nameList)
 printList(numberList)
+
+const booleanList: Array<boolean> = [true, false, false]
+printList(booleanList) // Skal gi feil 
+
+
 export { }; /* Denne er med for å unngå at alt defineres i det globale skopet */

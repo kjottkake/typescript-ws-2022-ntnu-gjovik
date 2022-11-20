@@ -1,6 +1,6 @@
 // OPPGAVE: Lag brukerdefinerte typeguards for de tre ulike lunsjtypene. Slik at getLunsj kan output riktig informasjon
 
-// I denne oppgaven trenger  vi litt lunsjtyper. De ulike lunsjrett-typene har noen variabler til felles,
+// I denne oppgaven trenger vi litt lunsjtyper. De ulike lunsjrett-typene har noen variabler til felles,
 // men også noen unike variabler til sin type.
 type VerdensKjøkkenType =
   | "ASIATISK"
@@ -101,4 +101,4 @@ export const getLunsj = (lunsjRetter: LunsjRett[]): void => {
 
 getLunsj(lunsjRetter);
 
-export {}; /* Denne er med for å unngå at alt defineres i det globale skopet */
+export { }; /* Denne er med for å unngå at alt defineres i det globale skopet */

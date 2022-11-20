@@ -3,10 +3,11 @@
 enum MatType {
   VEGETAR = "Vegetar",
   KJØTT = "Kjøtt",
+  VEGANSK = "Vegansk"
 }
 
 // Alternativt:
-// type MatType2 = 'Vegetar' | 'Kjøtt'
+// type MatType2 = 'Vegetar' | 'Kjøtt' | 'Vegansk';
 // Hva er fordelen med denne tilnærmingen?
 
 type Forrett = {
@@ -22,23 +23,23 @@ type Hovedrett = {
 
 type Dessert = {
   drikke: string;
-  Vegansk?: boolean;
+  vegansk?: boolean;
 };
 
 type Middag = Forrett & Hovedrett & Dessert;
 
-// Konsekvensene av å definere en middag av typen 'Middag' er en rimelig kjip og sær middag som
-// består av samme drikke og matType til både forret, hovedrett og dessert og man får ikke
-// velge tilbehør eller vegansk dessert
+// Oppgave 2:
+// Definer en type, 'UtvidetMiddag', som utvider ´Middag´ slik at den kan holde på egenskapene
+// 'drinkType' (som kan enten være 'GinTonic', 'Portvin' eller 'MoscowMule') og antall enheter
 
 // Oppgave 2:
-enum SpritType {
-  VODKA = "Vodka",
-  SNAPS = "Snaps",
+enum DrinkType {
+  GINTONIC = "Gin Tonic",
   PORTVIN = "Portvin",
+  MOSCOWMULE = "Moscow Mule"
 }
 
-type UtvidetMiddag = Middag & { spritType: SpritType; antallEnheter: number };
+type UtvidetMiddag = Middag & { drinkType: DrinkType; antallEnheter: number };
 
 // Oppgave 3
 type inputParams = string | number;
@@ -52,4 +53,4 @@ function add(a: inputParams, b: inputParams) {
   throw new Error("Parameters must be numbers or strings");
 }
 
-export {}; /* Denne er med for å unngå at alt defineres i det globale skopet */
+export { }; /* Denne er med for å unngå at alt defineres i det globale skopet */

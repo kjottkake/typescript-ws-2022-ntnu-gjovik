@@ -1,14 +1,14 @@
 // OPPGAVE 1
 // Lag en type eller et interface som beskriver følgende objekt:
 
-const Lunch = {
+const lunch = {
   startTime: 11,
   endTime: 12,
   menu: {
     title: "couscous salad",
     price: 35,
   },
-  printFuntion: () => console.log("todays lunch will be awesome!"),
+  printFunction: () => console.log("todays lunch will be awesome!"),
 };
 
 // OPPGAVE 2
@@ -33,10 +33,15 @@ const printList = (input: any): void => {
   console.log(nameListWithAnd)
 };
 
+const nameList = ["Ola", "Kari"]
+const numberList = [1, 2, 3, 4]
 
-printList("tom"); // OK
-printList(["tom", "jerry"]); // OK
+printList(nameList); // OK
+printList(numberList) // OK
 
-printList(123); // denne skal gi feil!
+const booleanList = [true, false, false]
+
+printList(booleanList) // Skal gi feil 
+
 
 export { }; /* Denne er med for å unngå at alt defineres i det globale skopet */

@@ -1,8 +1,8 @@
-// Oppgave 1: Lag en type som definerer et måltid med egenskapene 'verdenskjøkken'
-// (f.eks. italiensk, thai, kinesisk) og 'kjøttType' (f.eks. svin, okse, lam eller kylling))
+// Oppgave 1: 
+// Lag en enum som inneholder måltidstyper (frokost, middag, etc.)
 
 
-// Oppgave 2
+// Oppgave 2:
 // Hva må vi sette c.kind til, for at feilen skal forsvinne?
 enum ShapeKind {
   Circle,
@@ -25,7 +25,7 @@ let c: Circle = {
 };
 
 
-// Oppgave 2
+// Oppgave 3:
 // Hvorfor mener Typescript at det er en unødvendig sjekk?
 enum E {
   Foo,

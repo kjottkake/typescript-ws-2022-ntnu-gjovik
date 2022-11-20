@@ -1,22 +1,24 @@
-// Task 1. Sett types on the variables
-// Som i JavaScript er alle tall i TypeScript float behind the hood.
+// Oppgave 1. Sett typer på variablene
 
-let age = 0.5;
+let age = 20;
 
-let isActive = true;
+let name = "<Your name>";
 
-let status = `Covid-19 er ${age} år og ${isActive ? "er fortsatt aktiv :(" : "er ikke lenger aktiv :)"}`;
+let isHungry = true;
 
-console.log(status);
+console.log(
+  `My name is ${name} and I am ${age} years old. I am ${isHungry ? "hungry." : "not hungry."
+  }`
+);
 
-// Task 2. Sett på typer på input og output slik at det ikke er noen feil, men det som er kommentert ut gir feil.
+// Task 2. Sett typer på input og output-variablene.
 
 function hello(name) {
   return `Hello ${name}`;
 }
 
 hello("Bob");
-hello([1, 2, 3]); // Skal gi feil om du kommenterer inn.
+//hello([1, 2, 3]); // If you comment in this line, after the function is typed, TypeScript will report errors.
 
 function square(baseValue) {
   return baseValue * baseValue;
@@ -37,7 +39,8 @@ function returnNothing() {
 }
 
 
-// Oppgave 3. Noen ganger ønsker man at funksjonen kan ta inn hva som helst. Hvilken type kan du bruke for å fortelle Typescript dette?
+// Oppgave 3. Noen ganger ønsker man at funksjonen kan ta inn hva som helst. 
+//Hvilken type kan du bruke for å fortelle Typescript dette?
 function anythingCanBeAny(anything) {
   return anything;
 }
@@ -45,5 +48,7 @@ function anythingCanBeAny(anything) {
 const a = anythingCanBeAny(5);
 
 const b = anythingCanBeAny("heisann");
+
+// Det er ofte ikke anbefalt å bruke typen any, men den kan være grei å vite om.
 
 export { }; /* Denne er med for å unngå at alt defineres i det globale skopet */

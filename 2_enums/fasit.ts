@@ -1,15 +1,11 @@
 // Oppgave 1
-enum Verdenskjøkken {
-  Italiensk,
-  Thai,
-  Kinesisk,
-}
-
-enum Kjøttype {
-  Svin,
-  Okse,
-  Lam,
-  Kylling,
+enum Måltid {
+  Frokost,
+  Lunsj,
+  Middag,
+  Kveldsmat,
+  Mellommåltid,
+  Snacks,
 }
 
 // Oppgave 2
@@ -22,4 +18,4 @@ enum Kjøttype {
 // hvordan TypeScript klarer å fange denne inkorrekte sammenligningen av verdier kan du
 // sjekke ut https://www.typescriptlang.org/docs/handbook/enums.html#union-enums-and-enum-member-types
 
-export {}; /* Denne er med for å unngå at alt defineres i det globale skopet */
+export { }; /* Denne er med for å unngå at alt defineres i det globale skopet */

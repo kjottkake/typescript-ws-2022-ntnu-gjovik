@@ -1,14 +1,35 @@
 // Oppgave 1:
-// Definer tre typer 'forrett', 'hovedrett' og 'dessert'. Hver type skal inneholde følgende:
-// 'forrett': drikke, matType (to valg - enten 'vegetar' eller 'kjøtt')
+// Definer tre typer: 'Forrett', 'Hovedrett' og 'Dessert'. 
+//Hver type skal inneholde følgende:
+// 'forrett': drikke og mattype (to valg - enten 'vegetar' eller 'kjøtt')
+
+type Forrett = {
+
+}
+
 // 'hovedrett': drikke, matType og tilbehør
+type Hovedrett = {
+
+};
+
 // 'dessert': drikke og en ikke-obligatorisk egenskap på om desserten skal være vegansk.
+type Dessert = {
+
+};
+
 // Definér en type som heter 'Middag' og som er en intersection type av 'forrett', 'hovedrett' og 'dessert'.
-// (EKSTRA) Hva er konsekvensene av å bruke et objekt av typen 'Middag' til å representere en hel middag?
+
+
+type Middag = ;
+
+// (EKSTRA) Hva består objekter av typen Middag? Hva er konsekvensene av å bruke et objekt av typen 'Middag' til å representere en hel middag?
+
 
 // Oppgave 2:
 // Definer en type, 'UtvidetMiddag', som utvider ´Middag´ slik at den kan holde på egenskapene
-// 'spritType' (som kan enten være 'vodka', 'snaps' eller 'portvin') og antall enheter
+// 'DrinkType' (som kan enten være 'GinTonic', 'Portvin' eller 'MoscowMule') og antall enheter
+
+type UtvidetMiddag = ;
 
 // Oppgave 3:
 // Bytt ut any-typen i input med en intersection av string og number.
