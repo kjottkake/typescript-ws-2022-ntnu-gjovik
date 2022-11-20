@@ -1,12 +1,15 @@
 // Oppgave 1. Sett typer på variablene under
 
-let age: number = 0.5;
+let age: number = 20;
 
-let isActive: boolean = true;
+let name: string = "<Your name>";
 
-let status: string = `Covid-19 er ${age} år og ${isActive ? "er fortsatt aktiv :(" : "er ikke lenger aktiv :)"}`;
+let isHungry: boolean = true;
 
-console.log(status);
+console.log(
+  `My name is ${name} and I am ${age} years old. I am ${isHungry ? "hungry." : "not hungry."
+  }`
+);
 
 // Oppgave 2. Sett på typer slik at det ikke er noen feil, men det som er kommentert ut gir feil.
 
