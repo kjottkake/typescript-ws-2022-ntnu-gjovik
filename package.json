@@ -5,10 +5,13 @@
     "main": "index.js",
     "scripts": {
         "1": "npx ts-node 1_basic/oppgaver.ts",
+        "2": "npx ts-node 2_enums/oppgaver.ts",
+        "3": "npx ts-node 3_union_intersection_types/oppgaver.ts",
         "4": "npx ts-node 4_interface_og_type/oppgaver.ts",
         "5": "npx ts-node 5_typeguard/oppgaver.ts",
         "6": "npx ts-node 6_generics/oppgaver.ts",
-        "7": "npx ts-node 7_declaration/oppgaver.ts"
+        "7": "npx ts-node 7_declaration/oppgaver.ts",
+        "8": "npx ts-node 8_utility_types/oppgaver.ts"
     },
     "author": "",
     "license": "ISC",
