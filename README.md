@@ -2,12 +2,13 @@
 
 Velkommen til workshop! 👨‍💻
 
-Denne workshopen kan du enten gjøre i nettleser eller på din maskin. **Vi anbefaler at du bruker Github Codespace om du vil komme raskt i gang.** Den finner du under "<> Code" -> "Codespaces" -> "Create a codespace on main".  
+💻 Denne workshopen kan du enten gjøre i nettleser eller på din maskin. **Vi anbefaler at du bruker gjør det på nettleser for å komme raskt i gang.** Du kan åpne workshopen i nettleser ved å bruke Github Codespace. Det finner du under "<> Code" -> "Codespaces" -> "Create a codespace on main".  
 
 
 Workshopen tar først for seg grunnleggende TypeScript og går gradvis over i noe mer avansert konsepter.
 
-I hver mappe finner du tre filer; `README.md`, `oppgaver.ts`og `fasit.ts`. Vi anbefaler at du først leser `README`-en før du går i gang med oppgavene.
+I hver mappe finner du tre filer; `README.md`, `oppgaver.ts`og `fasit.ts`. Det er viktig at du leser `README`-en til hver oppgave før du går i gang med oppgavene.
+
 
 - [Oppgave 1: Basic](typescript-oppgaver/1_basic/README.md)
 - [Oppgave 2: Enums](typescript-oppgaver/2_enums/README.md)
@@ -18,6 +19,7 @@ I hver mappe finner du tre filer; `README.md`, `oppgaver.ts`og `fasit.ts`. Vi an
 - [Oppgave 7: Declaration](typescript-oppgaver/7_declaration/README.md)
 - [Oppgave 8: Utility types](typescript-oppgaver/8_utility_types/README.md)
 
+💡 Editoren skal vise røde streker der TypeScript melder om feil. Du kan også se TypeScript compilerer filen ved å kjøre `npm run <oppgave-nr>` feks. `npm run 1`.
 
 ### Ferdig?
 

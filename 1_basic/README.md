@@ -6,7 +6,7 @@ TypeScript støtter alle de samme typene som du ville forventet i JavaScript, i 
 
 ### Typeannotasjoner på variabler
 
-Når du deklarerer en variabel med `const`, `var` eller `let`, kan du velge å legge til en typeannotasjon for å eksplisitt spesifisere typen til variabelen. I de fleste tilfeller er ikke dette nødvendig, siden TypeScript prøver å _automatisk utlede_ typene i koden din.
+Når du deklarerer en variabel med `const`, `var` eller `let`, kan du velge å legge til en typeannotasjon for å eksplisitt spesifisere typen til variabelen. I de fleste tilfeller er ikke dette nødvendig, siden TypeScript _automatisk utleder_ typene i koden din.
 
 Eksempel:  
 `let navn = "Alice";`  
