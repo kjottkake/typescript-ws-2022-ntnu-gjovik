@@ -1,10 +1,10 @@
 // Oppgave 1. Sett typer på variablene
 
-let age = 20;
+let age: number = 20;
 
-let name = "<Your name>";
+let name: string= "<Your name>";
 
-let isHungry = true;
+let isHungry: boolean = true;
 
 console.log(
   `My name is ${name} and I am ${age} years old. I am ${isHungry ? "hungry." : "not hungry."
