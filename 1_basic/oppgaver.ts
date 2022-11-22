@@ -13,21 +13,21 @@ console.log(
 
 // Task 2. Sett typer på input og output-variablene.
 
-function hello(name) {
+function hello(name: string) {
   return `Hello ${name}`;
 }
 
 hello("Bob");
 //hello([1, 2, 3]); // If you comment in this line, after the function is typed, TypeScript will report errors.
 
-function square(baseValue) {
+function square(baseValue: number) {
   return baseValue * baseValue;
 }
 
 square(3);
 // square('hello'); // Skal gi feil om du kommenterer inn.
 
-function mySalary(name, salary) {
+function mySalary(name: string, salary: number) {
   return `My name is ${name}, and I make ${salary}$ each year`;
 }
 
@@ -41,7 +41,7 @@ function returnNothing() {
 
 // Oppgave 3. Noen ganger ønsker man at funksjonen kan ta inn hva som helst. 
 //Hvilken type kan du bruke for å fortelle Typescript dette?
-function anythingCanBeAny(anything) {
+function anythingCanBeAny(anything: any) {
   return anything;
 }
 
