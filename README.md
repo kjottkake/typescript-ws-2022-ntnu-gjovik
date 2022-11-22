@@ -21,6 +21,10 @@ I hver mappe finner du tre filer; `README.md`, `oppgaver.ts`og `fasit.ts`. Det e
 
 💡 Editoren skal vise røde streker der TypeScript melder om feil. Du kan også se TypeScript compilerer filen ved å kjøre `npm run <oppgave-nr>` feks. `npm run 1`.
 
+### Nyttige lenker
+- [Syntax Cheatsheets](https://www.typescriptlang.org/cheatsheets)
+- [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+
 ### Ferdig?
 
 TypeScript har en egen "lekeplass" med oppgaver. Det finnes ulike temaer under "Examples" på både JavaScript og TypeScript-fanen.
