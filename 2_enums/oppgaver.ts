@@ -1,6 +1,10 @@
 // Oppgave 1: 
 // Lag en enum som inneholder måltidstyper (frokost, middag, etc.)
-
+enum foodTypes {
+    Breakfast,
+    Lunch,
+    Dinner,
+}
 
 // Oppgave 2:
 // Hva må vi sette c.kind til, for at feilen skal forsvinne?
@@ -20,7 +24,7 @@ interface Square {
 }
 
 let c: Circle = {
-  kind: ShapeKind.Square, // Hva kan vi sette kind til?
+  c.kind = ShapeKind.Circle, // Hva kan vi sette kind til?
   radius: 100,
 };
 
